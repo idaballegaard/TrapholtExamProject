@@ -34,6 +34,8 @@
 .navb .col-7 ul.main-menu li {
   color: #DFDADA;
   list-style-type: none;
+  font-family: ChampagneLimo;
+  font-size: 18px;
 }
 .navb .col-7 ul.main-menu li:hover ul {
   display: block;
@@ -53,7 +55,7 @@
   min-width: 100px;
   position: absolute;
   z-index: 1;
-  margin: 13px 0 0 0;
+  margin: 10px 0 0 0;
   padding-left: 0;
   list-style-type: none;
 }
@@ -76,10 +78,61 @@
 }
 .search label {
   color: #DFDADA;
-  padding-right: 10px;
-  padding-top: 3px;
+  padding: 3px 10px 0 0;
+  font-family: ChampagneLimo;
+  font-size: 18px;
+}
+
+img.vh100 {
+  height: 100vh;
+}
+
+.break-image {
+  background-image: url(../img/walk_in_the_park.jpg);
+  background-size: cover;
+  height: 100vh;
 }
 
 .break {
-  background-color: #252525;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin-left: 50px;
+}
+.break div {
+  border-color: #3F4747;
+  border-width: 6px 0 6px 6px;
+  border-style: solid;
+  padding: 25px 50px 25px 25px;
+}
+.break div .break-header {
+  color: #7E2226;
+  font-family: LemonMilk;
+  margin: 0;
+  line-height: 1;
+}
+.break div .break-header.big {
+  font-size: 130px;
+  margin-top: 15px;
+}
+.break div .break-header.little {
+  font-size: 67.5px;
+}
+.break p {
+  font-size: 40px;
+  color: #3F4747;
+  font-family: ChampagneLimo-Bold;
+}
+.break a {
+  background-color: #7E2226;
+  padding: 10px;
+  font-size: 40px;
+  font-family: ChampagneLimo;
+  text-decoration: none;
+  color: #DFDADA;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  line-height: 1;
 }/*# sourceMappingURL=style.css.map */
