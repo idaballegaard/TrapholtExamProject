@@ -152,6 +152,27 @@ img.vh100 {
   font-size: 67.5px;
 }
 
+.footer {
+  background-color: #3F4747;
+  height: 100vh;
+}
+.footer .footer-col {
+  color: #DFDADA;
+  margin: 50px 0 0 50px;
+}
+.footer .footer-col h1 {
+  font-family: LemonMilk;
+  font-size: 20px;
+}
+.footer .footer-col h2 {
+  font-family: ChampagneLimo-Bold;
+  font-size: 22px;
+}
+.footer .footer-col p {
+  font-family: ChampagneLimo;
+  font-size: 18px;
+}
+
 a.button {
   background-color: #7E2226;
   padding: 10px;
