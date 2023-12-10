@@ -1,1 +1,21 @@
-@import url();
+@font-face {
+    font-family: LemonMilk-Medium;
+    src: url(fonts/LEMONMILK-Medium.otf);
+}
+@font-face {
+    font-family: LemonMilk;
+    src: url(fonts/LEMONMILK-Regular.otf);
+}
+@font-face {
+    font-family: ChampagneLimo;
+    src: url(fonts/ChampagneLimousines.ttf);
+}
+@font-face {
+    font-family: ChampagneLimo-Bold;
+    src: url(fonts/ChampagneLimousinesBold.ttf);
+}
+
+$primary-font1: LemonMilk;
+$primary-font2: LemonMilk-Medium;
+$secondary-font1: ChampagneLimo;
+$secondary-font2: ChampagneLimo-Bold;
