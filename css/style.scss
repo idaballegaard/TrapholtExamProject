@@ -78,8 +78,49 @@
     }
 }
 
-img.vh100 {
+.hero {
+    background-image: url(../img/Michael_kvium_hero1.jpg);
+    background-size: cover;
+    background-position: center center;
     height: 100vh;
+    padding: 40px;
+    
+    div.content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+
+        border: 6px solid $primary-color1;
+        height: 100%;
+        
+        div.margin {
+            margin-left: calc(50% + 20px);
+            .hero-header {
+                color: $neutral-color1;
+                font-family: $primary-font;
+                margin: 0;
+                line-height: 1;
+            }
+            .hero-header.big {
+                font-size: 110px;
+            }
+            .hero-header.little {
+                font-size: 102px;
+            }
+            p {
+                color: $neutral-color1;
+                font-family: $secondary-font-bold;
+                font-size: 30px;
+                margin-bottom: 0;
+                span {
+                    background-color: $primary-color1;
+                    width: 6px;
+                    height: 100%;
+                }
+            }
+        }
+    }
 }
 
 .break-image {
@@ -120,16 +161,40 @@ img.vh100 {
     }
 }
 
+@media only screen and (max-width: 768px) {
+    .break-image {
+        height: 50vh;
+    }
+
+    .break {
+        height: 50vh;
+        div {
+            .break-header {
+            }
+            .break-header.big {
+                font-size: 65px;
+            }
+            .break-header.little {
+                font-size: 34px;
+            }
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+}
+
 .night-run {
-    background-image: url(../img/flashlight-924099_1920.jpg);
+    background-image: linear-gradient(90deg, rgba(5,3,6,1) 0%, rgba(156,156,156,0) 70%), url(../img/flashlight-924099_1920.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
     padding: 40px;
-    div {
+    div.content {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-left: 50px;
 
         border: 6px solid $primary-color1;
         height: 100%;
@@ -140,18 +205,42 @@ img.vh100 {
             margin: 0;
             line-height: 1;
         }
-        .night-header.little {
-            font-size: 130px;
-        }
         .night-header.big {
-            font-size: 67.5px;
+            font-size: 110px;
+        }
+        .night-header.little {
+            font-size: 102px;
+        }
+        p {
+            color: $neutral-color1;
+            font-family: $secondary-font-bold;
+            font-size: 30px;
+            margin-bottom: 0;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .night-run {
+        
+        div.content {
+            justify-content: space-between;
+            
+            .night-header {
+            }
+            .night-header.big {
+                font-size: 55px;
+            }
+            .night-header.little {
+                font-size: 51px;
+            }
+            p {
+            }
         }
     }
 }
 
 .footer {
     background-color: $primary-color2;
-    height: 100vh;
     .footer-col {
         color: $neutral-color1;
         margin: 50px 0 0 50px;
@@ -181,6 +270,13 @@ a.button {
     width: fit-content;
     line-height: 1;
 }
+
+@media only screen and (max-width: 768px) {
+    a.button {
+        font-size: 20px;
+    }
+}
+
 
 
 //ul = nav-ul
