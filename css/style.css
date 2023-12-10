@@ -14,6 +14,10 @@
   font-family: ChampagneLimo-Bold;
   src: url(fonts/ChampagneLimousinesBold.ttf);
 }
+body {
+  background-color: #DFDADA;
+}
+
 .container-nav {
   position: -webkit-sticky;
   position: sticky;
@@ -88,14 +92,16 @@
   background-size: cover;
   background-position: center center;
   height: 100vh;
-  padding: 40px;
+  padding: 40px 0 40px 40px;
 }
 .hero div.content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 50px;
-  border: 6px solid #7E2226;
+  border-width: 6px 0 6px 6px;
+  border-style: solid;
+  border-color: #7E2226;
   height: 100%;
 }
 .hero div.content div.margin {
@@ -108,21 +114,22 @@
   line-height: 1;
 }
 .hero div.content div.margin .hero-header.big {
-  font-size: 110px;
+  font-size: 120px;
 }
 .hero div.content div.margin .hero-header.little {
-  font-size: 102px;
+  font-size: 81px;
 }
 .hero div.content div.margin p {
   color: #DFDADA;
   font-family: ChampagneLimo-Bold;
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 0;
 }
 .hero div.content div.margin p span {
   background-color: #7E2226;
   width: 6px;
   height: 100%;
+  display: inline-block;
 }
 
 .break-image {
@@ -248,7 +255,7 @@
 a.button {
   background-color: #7E2226;
   padding: 10px;
-  font-size: 40px;
+  font-size: 30px;
   font-family: ChampagneLimo;
   text-decoration: none;
   color: #DFDADA;
@@ -256,6 +263,11 @@ a.button {
   width: -moz-fit-content;
   width: fit-content;
   line-height: 1;
+  border: 3px solid #7E2226;
+}
+a.button:hover {
+  background-color: #252525;
+  transition: 0.3s;
 }
 
 @media only screen and (max-width: 768px) {

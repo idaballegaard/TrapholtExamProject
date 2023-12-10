@@ -37,6 +37,7 @@ body {
 
 .exhibition-heading {
   background-image: url(../img/Din-udstilling_Trapholt.jpg);
+  background-size: cover;
   height: 100vh;
   display: flex;
   align-items: flex-end;
@@ -112,7 +113,7 @@ h2.current-exhibitions {
   background-image: url(../img/Nana_Ditzel_img.jpg);
 }
 .exhibition-image.things-matter {
-  background-image: url(../img/things-matter.jpeg);
+  background-image: url(../img/things-matter.jpg);
 }
 .exhibition-image.richard-mortensen {
   background-image: url(../img/richard-mortensen.jpg);
@@ -126,4 +127,10 @@ h2.current-exhibitions {
 
 .spacer {
   margin-bottom: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+  .row.reverse {
+    flex-direction: column-reverse;
+  }
 }/*# sourceMappingURL=udstillinger.css.map */
