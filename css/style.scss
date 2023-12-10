@@ -118,18 +118,48 @@ img.vh100 {
         color: $primary-color2;
         font-family: $secondary-font-bold;
     }
-    a {
-        background-color: $primary-color1;
-        padding: 10px;
-        font-size: 40px;
-        font-family: $secondary-font;
-        text-decoration: none;
-        color: $neutral-color1;
-        width: fit-content;
-        line-height: 1;
+}
+
+.night-run {
+    background-image: url(../img/flashlight-924099_1920.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    padding: 40px;
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+        border: 6px solid $primary-color1;
+        height: 100%;
+        
+        .night-header {
+            color: $primary-color1;
+            font-family: $primary-font;
+            margin: 0;
+            line-height: 1;
+        }
+        .night-header.little {
+            font-size: 130px;
+        }
+        .night-header.big {
+            font-size: 67.5px;
+        }
     }
 }
 
+
+a.button {
+    background-color: $primary-color1;
+    padding: 10px;
+    font-size: 40px;
+    font-family: $secondary-font;
+    text-decoration: none;
+    color: $neutral-color1;
+    width: fit-content;
+    line-height: 1;
+}
 
 
 //ul = nav-ul

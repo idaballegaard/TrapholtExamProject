@@ -124,7 +124,35 @@ img.vh100 {
   color: #3F4747;
   font-family: ChampagneLimo-Bold;
 }
-.break a {
+
+.night-run {
+  background-image: url(../img/flashlight-924099_1920.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  padding: 40px;
+}
+.night-run div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 6px solid #7E2226;
+  height: 100%;
+}
+.night-run div .night-header {
+  color: #7E2226;
+  font-family: LemonMilk;
+  margin: 0;
+  line-height: 1;
+}
+.night-run div .night-header.little {
+  font-size: 130px;
+}
+.night-run div .night-header.big {
+  font-size: 67.5px;
+}
+
+a.button {
   background-color: #7E2226;
   padding: 10px;
   font-size: 40px;
