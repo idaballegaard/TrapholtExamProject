@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@font-face {
+  font-family: LemonMilk-Medium;
+  src: url(fonts/LEMONMILK-Medium.otf);
+}
+@font-face {
+  font-family: LemonMilk;
+  src: url(fonts/LEMONMILK-Regular.otf);
+}
+@font-face {
+  font-family: ChampagneLimo;
+  src: url(fonts/ChampagneLimousines.ttf);
+}
+@font-face {
+  font-family: ChampagneLimo-Bold;
+  src: url(fonts/ChampagneLimousinesBold.ttf);
+}
+@font-face {
+  font-family: LemonMilk-Medium;
+  src: url(fonts/LEMONMILK-Medium.otf);
+}
+@font-face {
+  font-family: LemonMilk;
+  src: url(fonts/LEMONMILK-Regular.otf);
+}
+@font-face {
+  font-family: ChampagneLimo;
+  src: url(fonts/ChampagneLimousines.ttf);
+}
+@font-face {
+  font-family: ChampagneLimo-Bold;
+  src: url(fonts/ChampagneLimousinesBold.ttf);
+}
+body {
+  background-color: #DFDADA;
+}
+
+.exhibition-heading {
+  background-image: url(../img/Din-udstilling_Trapholt.jpg);
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+.exhibition-heading div {
+  font-family: LemonMilk-Medium;
+  background-color: rgba(126, 34, 38, 0.7);
+  margin: 30px;
+}
+.exhibition-heading div h1 {
+  color: #DFDADA;
+}
+
+.exhibition-text1 {
+  border-color: #7E2226;
+  border-style: solid;
+  border-width: 6px 6px 6px 0;
+  height: 100%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #7E2226;
+}
+.exhibition-text1 h3 {
+  font-size: 45px;
+  font-family: LemonMilk;
+}
+.exhibition-text1 p {
+  font-size: 30px;
+  font-family: ChampagneLimo-Bold;
+  margin-bottom: 0;
+}
+
+.exhibition-text2 {
+  border-color: #7E2226;
+  border-style: solid;
+  border-width: 6px 6px 6px 0;
+  height: 100%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #7E2226;
+  color: #3F4747;
+  border-color: #3F4747;
+  border-width: 6px 0 6px 6px;
+}
+.exhibition-text2 h3 {
+  font-size: 45px;
+  font-family: LemonMilk;
+}
+.exhibition-text2 p {
+  font-size: 30px;
+  font-family: ChampagneLimo-Bold;
+  margin-bottom: 0;
+}
+
+h2.current-exhibitions {
+  color: #7E2226;
+  font-family: LemonMilk;
+}
+
+.exhibition-image {
+  height: 400px;
+  background-size: cover;
+  background-position: center center;
+}
+.exhibition-image.clay-paper {
+  background-image: url(../img/killi-Olsen_rødemasker.jpg);
+}
+.exhibition-image.nanna-ditzel {
+  background-image: url(../img/Nana_Ditzel_img.jpg);
+}
+.exhibition-image.things-matter {
+  background-image: url(../img/things-matter.jpeg);
+}
+.exhibition-image.richard-mortensen {
+  background-image: url(../img/richard-mortensen.jpg);
+}
+.exhibition-image.arne-jacobsen {
+  background-image: url(../img/arne-jacobsen.jpg);
+}
+.exhibition-image.sculpturepark {
+  background-image: url(../img/sculpturepark.jpeg);
+}
+
+.spacer {
+  margin-bottom: 120px;
+}/*# sourceMappingURL=udstillinger.css.map */

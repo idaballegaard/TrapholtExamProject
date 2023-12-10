@@ -1,0 +1,69 @@
+@use"colors" as *;
+@use"typography" as *;
+
+@import "exhibition-text";
+
+body {
+    background-color: $neutral-color1;
+}
+
+.exhibition-heading {
+    background-image: url(../img/Din-udstilling_Trapholt.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    div {
+        font-family: $primary-font-bold;
+        background-color: rgba($primary-color1, 0.7);
+        margin: 30px;
+        h1 {
+            color: $neutral-color1;
+        }
+    }
+}
+
+.exhibition-text1 {
+    @include exhibition-text;
+}
+
+.exhibition-text2 {
+    @include exhibition-text;
+    color: $primary-color2;
+    border-color: $primary-color2;
+    border-width: 6px 0 6px 6px;
+}
+
+h2.current-exhibitions {
+    color: $primary-color1;
+    font-family: $primary-font;
+}
+
+.exhibition-image {
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+
+    &.clay-paper {
+        background-image: url(../img/killi-Olsen_rødemasker.jpg);
+    }
+    &.nanna-ditzel {
+        background-image: url(../img/Nana_Ditzel_img.jpg);
+    }
+    &.things-matter {
+        background-image: url(../img/things-matter.jpeg);
+    }
+    &.richard-mortensen {
+        background-image: url(../img/richard-mortensen.jpg);
+    }
+    &.arne-jacobsen {
+        background-image: url(../img/arne-jacobsen.jpg);
+    }
+    &.sculpturepark {
+        background-image: url(../img/sculpturepark.jpeg);
+    }
+}
+
+.spacer {
+    margin-bottom: 120px;
+}
+
