@@ -1,0 +1,61 @@
+@use"colors" as *;
+@use"typography" as *;
+
+body {
+    background-color: $neutral-color1;
+}
+
+.info-heading {
+    background-image: url(../img/visit_trapholt_hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: flex-end;
+    div {
+        font-family: $primary-font-bold;
+        background-color: rgba($primary-color1, 0.7);
+        margin: 30px;
+        h1 {
+            color: $neutral-color1;
+            &.big {
+                font-size: 70px;
+            }
+            &.little {
+                font-size: 33px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .info-heading {
+        height: 50vh;
+        div {
+            h1 {
+                &.big {
+                    font-size: 35px;
+                }
+                &.little {
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+.info {
+    color: $neutral-color2;
+    h2 {
+        font-family: $primary-font;
+        font-size: 25px;
+    }
+    h3 {
+        font-family: $secondary-font-bold;
+        font-size: 22px;
+    }
+    p {
+        font-family: $secondary-font;
+        font-size: 20px;
+    }
+}
