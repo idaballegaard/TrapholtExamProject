@@ -5,6 +5,7 @@
 
 body {
     background-color: $neutral-color1;
+    padding-bottom: 100px;
 }
 
 .exhibition-heading {
@@ -17,10 +18,16 @@ body {
     div {
         font-family: $primary-font-bold;
         background-color: rgba($primary-color1, 0.7);
-        margin: 30px;
-        h1 {
-            color: $neutral-color1;
-        }
+        margin: 50px;
+    }
+
+    .exhibition-heading-gathered {
+            padding: 40px 50px;
+
+            h1 {
+                color: $neutral-color1;
+                font-size: 60px;
+            }
     }
 }
 
@@ -36,8 +43,10 @@ body {
 }
 
 h2.current-exhibitions {
-    color: $primary-color1;
+    color: $primary-color2;
     font-family: $primary-font;
+    margin: 70px 0 70px 40px;
+    font-size: 45px;
 }
 
 .exhibition-image {

@@ -15,14 +15,15 @@ body {
     div {
         font-family: $primary-font-bold;
         background-color: rgba($primary-color1, 0.7);
-        margin: 30px;
+        margin: 50px;
+        padding: 40px 50px;
         h1 {
             color: $neutral-color1;
             &.big {
-                font-size: 70px;
+                font-size: 80px;
             }
             &.little {
-                font-size: 33px;
+                font-size: 38px;
             }
         }
     }
@@ -56,6 +57,6 @@ body {
     }
     p {
         font-family: $secondary-font;
-        font-size: 20px;
+        font-size: 22px;
     }
 }

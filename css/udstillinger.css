@@ -33,6 +33,7 @@
 }
 body {
   background-color: #DFDADA;
+  padding-bottom: 100px;
 }
 
 .exhibition-heading {
@@ -46,10 +47,14 @@ body {
 .exhibition-heading div {
   font-family: LemonMilk-Medium;
   background-color: rgba(126, 34, 38, 0.7);
-  margin: 30px;
+  margin: 50px;
 }
-.exhibition-heading div h1 {
+.exhibition-heading .exhibition-heading-gathered {
+  padding: 40px 50px;
+}
+.exhibition-heading .exhibition-heading-gathered h1 {
   color: #DFDADA;
+  font-size: 60px;
 }
 
 .exhibition-text1 {
@@ -98,8 +103,10 @@ body {
 }
 
 h2.current-exhibitions {
-  color: #7E2226;
+  color: #3F4747;
   font-family: LemonMilk;
+  margin: 70px 0 70px 40px;
+  font-size: 45px;
 }
 
 .exhibition-image {
