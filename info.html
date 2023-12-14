@@ -5,11 +5,57 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trapholt</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary trapholt-menu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo-eksamen2-hvid.png">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="udstillinger.html" role="button" aria-expanded="false">
+                  Udstillinger
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="">In Clay and Paper</a></li>
+                  <li><a class="dropdown-item" href="">Design til nye højder</a></li>
+                  <li><a class="dropdown-item" href="">Things Matter</a></li>
+                  <li><a class="dropdown-item" href="">Richard Mortensen</a></li>
+                  <li><a class="dropdown-item" href="">Arne Jacobsen</a></li>
+                  <li><a class="dropdown-item" href="">Skulpturparken</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Events
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="">Nat på museet</a></li>
+                  <li><a class="dropdown-item" href="">Fællesspisning</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="true" href="info.html">Info</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Søg" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Søg</button>
+            </form>
+          </div>
+        </div>
+      </nav>
 
     <div class="container-fluid px-0 info">
         <div class="row">
@@ -66,7 +112,7 @@
             <div class="col-12">
                 <h2>Kort over Trapholt</h2>
                 <p>Her kan du få et overblik over, hvor på museet du finder Trapholts aktuelle udstillinger.</p>
-                <!-- Indsæt kort her -->
+                <img class="img-fluid map" src="img/kortoversigt_trapholt_færdig.png" alt="Kort">
             </div>
         </div>
         <div class="row p-5">
@@ -84,6 +130,40 @@
                 <p>Vi opfordrer mobilhomes til  af pladshensyn at parkere på de skrå p-pladser på Æblehaven uden for p-pladsen. Ønsker man at gå en tur i parken efter lukketid, kan man ligeledes parkere på de skrå p-pladser uden for området.</p>
             </div>
         </div>
+
+        <div class="row footer">
+            <div class="col-12 col-md-4">
+              <div class="footer-col">
+                <h1>Kontakt</h1>
+                <h2>Adresse</h2>
+                <p>Trapholt</p>
+                <p>Æblehaven 23</p>
+                <p>6000 Kolding</p>
+                <h2>Telefon</h2>
+                <p>+45 76 30 05 30</p>
+                <h2>E-mail</h2>
+                <p>kunstmuseum@trapholt.dk</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="footer-col">
+                <h1>Åbningstider</h1>
+                <h2>Tirsdag - Søndag</h2>
+                <p>10.00 - 17.00</p>
+                <h2>Onsdag</h2>
+                <p>10.00 - 21.00</p>
+                <h2>Mandag</h2>
+                <p>Lukket</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="footer-col some">
+                <h1>Følg os</h1>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+              </div>
+            </div>
+          </div>
     </div>
     
 </body>

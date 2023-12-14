@@ -9,7 +9,7 @@ body {
     background-image: url(../img/visit_trapholt_hero.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: calc(100vh - 56px);
     display: flex;
     align-items: flex-end;
     div {
@@ -58,5 +58,13 @@ body {
     p {
         font-family: $secondary-font;
         font-size: 22px;
+    }
+    .row.p-5 {
+        padding-left: 95px !important;
+        padding-top: 95px !important;
+    }
+    img.map {
+        margin-top: 50px;
+        width: 65vw;
     }
 }

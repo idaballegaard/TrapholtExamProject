@@ -5,64 +5,11 @@ body {
     background-color: $neutral-color1;
 }
 
-.container-nav {
-    position: sticky;
-    z-index: 1;
-}
-
-.navbar-nav li:hover > ul.dropdown-menu {
-    display: block;
-}
-
-.trapholt-menu {
-    background-color: $primary-color2;
-
-    a {
-        color: $neutral-color1;
-        &:hover {
-            color: $neutral-color1;
-        }
-        &:focus {
-            color: $neutral-color1;
-        }
-    }
-    .dropdown-menu {
-        background-color: $neutral-color1;
-        a {
-            color: $neutral-color2;
-            &:hover {
-                background-color: $secondary-color;
-            }
-        }
-    }
-
-    .btn {
-        border-color: $neutral-color1;
-        color: $neutral-color1;
-        &:hover {
-            background-color: $secondary-color;
-        }
-        &:focus {
-            border-color: $neutral-color1;
-        }
-    }
-    .navbar-toggler {
-        &:focus {
-            border-color: $neutral-color1;
-            outline: none !important;
-            box-shadow: none !important;
-        }
-        span {
-            color: $neutral-color1;
-        }
-    }
-}
-
 .hero {
     background-image: url(../img/Michael_kvium_hero1.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: calc(100vh - 56px);
     padding: 40px 0 40px 40px;
     
     div.content {
@@ -257,6 +204,10 @@ body {
 
                     p {
                         margin-bottom: 0;
+
+                        &:last-of-type {
+                            margin-bottom: 45px;
+                        }
                     }
         }
         
@@ -267,6 +218,7 @@ body {
     .night-run {
         
         div.content {
+            justify-content: space-between;
 
             .night-header-gathered {
             
@@ -275,45 +227,27 @@ body {
 
                 .night-header.big {
                     font-size: 55px;
+                    margin-top: 40px;
                 }
 
                 .night-header.little {
                     font-size: 51px;
                 }
-
+            }
+            .night-p {
                 p {
                     font-size: 20px;
+
+                    &:last-of-type {
+                        margin-bottom: 0;
+                    }
                 }
             }
         }
     }
 }
 
-.footer {
-    background-color: $primary-color2;
-    padding: 100px;
 
-    .footer-col {
-        color: $neutral-color1;
-
-        h1 {
-            font-family: $primary-font;
-            font-size: 25px;
-
-        }
-
-        h2 {
-            font-family: $secondary-font-bold;
-            font-size: 22px;
-            margin-top: 35px
-        }
-
-        p {
-            font-family: $secondary-font;
-            font-size: 18px;
-        }
-    }
-}
 
 
 a.button {

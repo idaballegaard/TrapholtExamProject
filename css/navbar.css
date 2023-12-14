@@ -1,0 +1,76 @@
+@font-face {
+  font-family: LemonMilk-Medium;
+  src: url(fonts/LEMONMILK-Medium.otf);
+}
+@font-face {
+  font-family: LemonMilk;
+  src: url(fonts/LEMONMILK-Regular.otf);
+}
+@font-face {
+  font-family: ChampagneLimo;
+  src: url(fonts/ChampagneLimousines.ttf);
+}
+@font-face {
+  font-family: ChampagneLimo-Bold;
+  src: url(fonts/ChampagneLimousinesBold.ttf);
+}
+.container-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+}
+
+.navbar-brand img {
+  height: 30px;
+  margin-top: 6px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+
+.navbar-collapse .navbar-nav {
+  justify-content: space-around;
+  width: 60%;
+  margin: auto;
+}
+
+.trapholt-menu {
+  background-color: #3F4747;
+}
+.trapholt-menu a {
+  color: #DFDADA;
+}
+.trapholt-menu a:hover {
+  color: #DFDADA;
+}
+.trapholt-menu a:focus {
+  color: #DFDADA;
+}
+.trapholt-menu .dropdown-menu {
+  background-color: #DFDADA;
+}
+.trapholt-menu .dropdown-menu a {
+  color: #252525;
+}
+.trapholt-menu .dropdown-menu a:hover {
+  background-color: #708084;
+}
+.trapholt-menu .btn {
+  border-color: #DFDADA;
+  color: #DFDADA;
+}
+.trapholt-menu .btn:hover {
+  background-color: #708084;
+}
+.trapholt-menu .btn:focus {
+  border-color: #DFDADA;
+}
+.trapholt-menu .navbar-toggler:focus {
+  border-color: #DFDADA;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.trapholt-menu .navbar-toggler span {
+  color: #DFDADA;
+}/*# sourceMappingURL=navbar.css.map */

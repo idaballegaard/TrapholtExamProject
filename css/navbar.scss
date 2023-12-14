@@ -1,0 +1,68 @@
+@use"colors" as *;
+@use"typography" as *;
+
+.container-nav {
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-top: 6px;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+
+.navbar-collapse {
+    .navbar-nav {
+        justify-content: space-around;
+        width: 60%;
+        margin: auto;
+    }
+}
+
+.trapholt-menu {
+    background-color: $primary-color2;
+
+    a {
+        color: $neutral-color1;
+        &:hover {
+            color: $neutral-color1;
+        }
+        &:focus {
+            color: $neutral-color1;
+        }
+    }
+    .dropdown-menu {
+        background-color: $neutral-color1;
+        a {
+            color: $neutral-color2;
+            &:hover {
+                background-color: $secondary-color;
+            }
+        }
+    }
+
+    .btn {
+        border-color: $neutral-color1;
+        color: $neutral-color1;
+        &:hover {
+            background-color: $secondary-color;
+        }
+        &:focus {
+            border-color: $neutral-color1;
+        }
+    }
+    .navbar-toggler {
+        &:focus {
+            border-color: $neutral-color1;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        span {
+            color: $neutral-color1;
+        }
+    }
+}

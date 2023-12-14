@@ -22,7 +22,7 @@ body {
   background-image: url(../img/visit_trapholt_hero.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  height: calc(100vh - 56px);
   display: flex;
   align-items: flex-end;
 }
@@ -67,4 +67,12 @@ body {
 .info p {
   font-family: ChampagneLimo;
   font-size: 22px;
+}
+.info .row.p-5 {
+  padding-left: 95px !important;
+  padding-top: 95px !important;
+}
+.info img.map {
+  margin-top: 50px;
+  width: 65vw;
 }/*# sourceMappingURL=info.css.map */

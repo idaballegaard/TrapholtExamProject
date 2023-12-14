@@ -5,14 +5,13 @@
 
 body {
     background-color: $neutral-color1;
-    padding-bottom: 100px;
 }
 
 .exhibition-heading {
     background-image: url(../img/Din-udstilling_Trapholt.jpg);
     background-size: cover;
     background-position: center center;
-    height: 100vh;
+    height: calc(100vh - 56px);
     display: flex;
     align-items: flex-end;
     div {
@@ -28,6 +27,16 @@ body {
                 color: $neutral-color1;
                 font-size: 60px;
             }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .exhibition-heading {
+        .exhibition-heading-gathered {
+            h1 {
+                font-size: 20px;
+            }
+        }
     }
 }
 
@@ -82,4 +91,8 @@ h2.current-exhibitions {
     .row.reverse {
         flex-direction: column-reverse;
     }
+}
+
+.footer {
+    margin-top: 100px;
 }

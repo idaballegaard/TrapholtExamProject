@@ -1,0 +1,48 @@
+@use"colors" as *;
+@use"typography" as *;
+
+.footer {
+    background-color: $primary-color2;
+    padding: 100px;
+
+    .footer-col {
+        color: $neutral-color1;
+
+        h1 {
+            font-family: $primary-font;
+            font-size: 25px;
+
+        }
+
+        h2 {
+            font-family: $secondary-font-bold;
+            font-size: 22px;
+            margin-top: 35px
+        }
+
+        p {
+            font-family: $secondary-font;
+            font-size: 18px;
+        }
+
+        &.some {
+            i {
+                font-size: 40px;
+                padding-right: 20px;
+                padding-top: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+
+        .footer-col {
+
+            h1 {
+                margin-top: 50px;
+            }
+        }
+    }
+}

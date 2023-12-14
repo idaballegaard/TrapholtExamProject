@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trapholt</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
@@ -15,14 +17,16 @@
 
   <nav class="navbar navbar-expand-lg bg-body-tertiary trapholt-menu">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Trapholt</a>
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo-eksamen2-hvid.png">
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="fa fa-bars"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="udstillinger.html" role="button" aria-expanded="false">
               Udstillinger
             </a>
             <ul class="dropdown-menu">
@@ -44,7 +48,7 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" aria-disabled="true">Info</a>
+            <a class="nav-link" aria-disabled="true" href="info.html">Info</a>
           </li>
         </ul>
         <form class="d-flex" role="search">
@@ -99,8 +103,8 @@
               <div class="night-p">
                 <p>Deltag i et uhyggeligt natteløb og</p>
                 <p>oplev kunsten på en ny måde.</p>
+                <a class="button" href="#">Se mere</a>
               </div>
-              <a class="button" href="#">Se mere</a>
             </div>
           </div>
         </div>
@@ -132,13 +136,14 @@
           </div>
         </div>
         <div class="col-12 col-md-4">
-          <div class="footer-col">
+          <div class="footer-col some">
             <h1>Følg os</h1>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
           </div>
         </div>
       </div>
     </div>
-
 
 
     <!-- jQuery -->
